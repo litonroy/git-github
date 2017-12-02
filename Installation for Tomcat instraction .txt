@@ -1,0 +1,39 @@
+
+Tomcat installation instruction 
+Prerequsite:
+//TO setup the tomcat you have to install jdk(If u have jdk download before u don't have to download ) 
+//But get ur jdk path and use it in line no.7
+
+1)  Download apache tomcat
+2) Extract the file   ====> C: 
+3) start==> cmd
+4)  cd \
+5) cd apache*
+6) cd bin
+7)  set JAVA_HOME=c:\jdk(path) 	
+8) set PATH=%PATH%;%JAVA_HOME%/bin	(Use this line whos OS is windows)
+   export PATH=$PATH:$JAVA_HOME/bin  (Use this line whos OS is mac)
+9) startup ==>to bring up tomcat in ur cmd type startup hit enter
+  (shutdown)==>to close tomcat in ur cmd type shutdown hit enter
+10) http://localhost:8080 (go to ur browser in url type this line)
+11) apache*/bin (in ur  cmd type bin)
+12) cd ..
+13) cd webapps
+14) mkdir FTF
+15) cd FTF
+
+
+Make sure whene u saved the following files File type should be ==>  All Files*
+				encoding should be ==> UTF8			
+Now go to ur C: drive/apache-tomcat-....../webaps/FTF/login.html
+						     /LoginCheck.jsp
+						     /Logout.jsp
+						     /Home.jsp
+						     /Error.jsp
+
+
+
+Now go to ur browser in url type
+http://localhost:8080/login.html
+
+
